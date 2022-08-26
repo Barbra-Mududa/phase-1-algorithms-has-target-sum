@@ -4,9 +4,9 @@ function hasTargetSum(array, target) {
   if (array.length < 2) {
     return false
   }
-  for (let indexOne = 0; indexOne < array.length - 1; indexOne++) {
-     for (let indexTwo = indexOne + 1; indexTwo < array.length; indexTwo++) {
-      let sum = array[indexOne] + array[indexTwo];
+  for (let index = 0; index < array.length - 1; index++) {
+     for (let int = index + 1; int < array.length; int++) {
+      let sum = array[indexOne] + array[int];
       if (sum === target) {
         return true;
       }
