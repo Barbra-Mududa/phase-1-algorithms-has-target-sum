@@ -6,7 +6,7 @@ function hasTargetSum(array, target) {
   }
   for (let index = 0; index < array.length - 1; index++) {
      for (let int = index + 1; int < array.length; int++) {
-      let sum = array[indexOne] + array[int];
+      let sum = array[index] + array[int];
       if (sum === target) {
         return true;
       }
